@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="11px" viewBox="0 0 12 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>technology-interaction</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-143.000000, -48.000000)" fill="#030000" fill-rule="nonzero">
+            <g id="technology-interaction" transform="translate(143.000000, 48.000000)">
+                <path d="M8.12,2 C9.57304465,2.77521867 10.4806251,4.28809297 10.4806251,5.935 C10.4806251,7.58190703 9.57304465,9.09478133 8.12,9.87 L8.12,2 M7.37,0.93 L7.37,11 C9.64318872,10.3864447 11.222355,8.32453543 11.222355,5.97 C11.222355,3.61546457 9.64318872,1.55355534 7.37,0.94 L7.37,0.93 Z" id="形状"></path>
+                <path d="M3.87,2 L3.87,9.86 C2.42215292,9.08312873 1.51871999,7.57310381 1.51871999,5.93 C1.51871999,4.28689619 2.42215292,2.77687127 3.87,2 M4.62,0.9 C2.30928951,1.48625671 0.69124939,3.56607888 0.69124939,5.95 C0.69124939,8.33392112 2.30928951,10.4137433 4.62,11 L4.62,0.93 L4.62,0.9 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

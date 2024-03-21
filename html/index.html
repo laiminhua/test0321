@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>数字孪生</title>
+  <style>
+    #echart_loadingBox{position: fixed; left: 0; top: 0; z-index: 10; width: 100%; height: 100%; background-color: #020529; display: flex; align-items: center; justify-content: center;}
+    #echart_loading{width: 400px; height: 400px;}
+    [v-cloak]{display: none;}
+    .p_body_yellow{color:#feed00}
+    .overflowEllipsis2{height: 21px;width: 60px;overflow: hidden;display: -webkit-box}
+
+  </style>
+  <link rel="stylesheet" href="../static/css/style.css">
+ <script src="../static/js/axios.min.js"></script>
+ <script src="../static/js/vue.min.js"></script>
+ <script src="../static/js/jquery.js"></script>
+</head>
+<body style="background: #0d1933;">
+    <div id="app">
+        <!-- 工单 -->
+        <div class="order" style="display: block;">
+            <div class="networkHealth_l">
+                <div class="networkHealth_l_top gyBg" style="height: 316px;">
+                    <div class="title">工单处置情况<i>Computer room</i><span></span></div>
+                    <div class="con">
+                        <div class="orderHandleL flex align-center justify-between">
+                            <div class="left flex align-center">
+                                <img src="../static/img/02.fw.png"/>
+                                <div>
+                                    <p><span class="blue">511</span>件</p>
+                                    待处置
+                                </div>
+                            </div>
+                            <div class="center">
+                                <p><span class="green">126</span>件</p>
+                                今日新增
+                            </div>
+                            <div class="right">
+                                <p><span class="orange">358</span>件</p>
+                                今日处置
+                            </div>
+                        </div>
+                        <div class="orderHandleL flex align-center justify-between">
+                            <div class="left flex align-center">
+                                <img src="../static/img/02.fw.png"/>
+                                <div>
+                                    <p><span class="blue">256</span>件</p>
+                                    今日下发
+                                </div>
+                            </div>
+                            <div class="center">
+                                <p><span class="green">106</span>件</p>
+                                待接单
+                            </div>
+                            <div class="right">
+                                <p><span class="orange">37</span>件</p>
+                                处理中
+                            </div>
+                        </div>
+                        <div class="orderHandleL flex align-center justify-between">
+                            <div class="left flex align-center">
+                                <img src="../static/img/02.fw.png"/>
+                                <div>
+                                    <p><span class="blue">205</span>件</p>
+                                    超时未接
+                                </div>
+                            </div>
+                            <div class="center">
+                                <p><span class="green">124</span>件</p>
+                                超时未完成
+                            </div>
+                            <div class="right">
+                                <p><span class="orange">20</span>件</p>
+                                事件总量
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="networkHealth_l_middle gyBg mt15" style="height: 240px;">
+                    <div class="title">在线人数TOP5<i>Computer room</i><span></span></div>
+                    <div class="con top05">
+                        <div class="titleD flex">
+                            <div class="one">排名</div>
+                            <div class="two">楼宇名称</div>
+                            <div class="three">在线人数</div>
+                        </div>
+                        <div id="onlineTop5">
+                            <div class="one"></div>
+                            <div class="two"></div>
+                            <div class="three"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="networkHealth_l_bot gyBg mt15" style="height: 300px;">
+                    <div class="title">认证失败原因<i>Computer room</i><span></span></div>
+                    <div class="con"></div>
+                </div>
+            </div>
+            <div class="networkHealth_r">
+                <div class="networkHealth_l_top gyBg" style="height: 380px;">
+                    <div class="title">上网流量趋势<i>Computer room</i><span></span></div>
+                    <div class="con"></div>
+                </div>
+                <div class="networkHealth_l_middle gyBg mt15" style="height: 240px;">
+                    <div class="title">上网流量TOP5<i>Computer room</i><span></span></div>
+                    <div class="con"></div>
+                </div>
+                <div class="networkHealth_l_bot gyBg mt15" style="height: 300px;">
+                    <div class="title">认证失败趋势<i>Computer room</i><span></span></div>
+                    <div class="con"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 网络健康 -->
+        <!-- <div class="networkHealth">
+            <div class="networkHealth_l">
+                <div class="networkHealth_l_top gyBg" style="height: 380px;">
+                    <div class="title">网络设备概况<i>Computer room</i><span></span></div>
+                    <div class="con networkHealth_l_top_bot">
+                        <div class="flex align-center action">切换更多设备<img src="../static/img/qieh.png"/></div>
+                        <ul>
+                            <li>
+                                <div class="flex align-center">
+                                    <img src="../static/img/ico01.png"/>
+                                    <p class="name">核心交换机</p>
+                                </div>
+                                <div class="flex align-center justify-between des">
+                                    <p>正常<span class="blue">10</span>台</p>
+                                    <p>离线<span class="orange">2</span>台</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex align-center">
+                                    <img src="../static/img/ico02.png"/>
+                                    <p class="name">汇聚交换机</p>
+                                </div>
+                                <div class="flex align-center justify-between des">
+                                    <p>正常<span class="blue">10</span>台</p>
+                                    <p>离线<span class="orange">2</span>台</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex align-center">
+                                    <img src="../static/img/ico03.png"/>
+                                    <p class="name">防火墙</p>
+                                </div>
+                                <div class="flex align-center justify-between des">
+                                    <p>正常<span class="blue">10</span>台</p>
+                                    <p>离线<span class="orange">2</span>台</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex align-center">
+                                    <img src="../static/img/ico04.png"/>
+                                    <p class="name">AC设备</p>
+                                </div>
+                                <div class="flex align-center justify-between des">
+                                    <p>正常<span class="blue">10</span>台</p>
+                                    <p>离线<span class="orange">2</span>台</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex align-center">
+                                    <img src="../static/img/ico02.png"/>
+                                    <p class="name">接入交换机</p>
+                                </div>
+                                <div class="flex align-center justify-between des">
+                                    <p>正常<span class="blue">10</span>台</p>
+                                    <p>离线<span class="orange">2</span>台</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="flex align-center">
+                                    <img src="../static/img/ico05.png"/>
+                                    <p class="name">BRAS</p>
+                                </div>
+                                <div class="flex align-center justify-between des">
+                                    <p>正常<span class="blue">10</span>台</p>
+                                    <p>离线<span class="orange">2</span>台</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="networkHealth_l_middle gyBg mt15" style="height: 240px;">
+                    <div class="title">设备分布区域<i>Computer room</i><span></span></div>
+                    <div class="con">
+                        <div class="pieEchart" id="echart_5_1" style="width: 100%; height: 200px;"></div>
+                    </div>
+                </div>
+                <div class="networkHealth_l_bot gyBg mt15" style="height: 300px;">
+                    <div class="title">设备离线趋势<i>Computer room</i><span></span></div>
+                    <div class="con"></div>
+                </div>
+            </div>
+            <div class="networkHealth_r">
+                <div class="networkHealth_l_top gyBg" style="height: 380px;">
+                    <div class="title">流量使用趋势<i>Computer room</i><span></span></div>
+                    <div class="con"></div>
+                </div>
+                <div class="networkHealth_l_middle gyBg mt15" style="height: 240px;">
+                    <div class="title">异常链路类型分布<i>Computer room</i><span></span></div>
+                    <div class="con"></div>
+                </div>
+                <div class="networkHealth_l_bot gyBg mt15" style="height: 300px;">
+                    <div class="title">异常链路趋势分析<i>Computer room</i><span></span></div>
+                    <div class="con"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- 用户用网 -->
+        <!-- <div class="userNetwork" style="display: block;">
+            <div class="networkHealth_l">
+                <div class="networkHealth_l_top gyBg" style="height: 380px;">
+                    <div class="title">在线人数分析<i>Computer room</i><span></span></div>
+                    <div class="con">
+                        <div class="online flex justify-between">
+                            <div class="flex align-center">
+                                <img src="../static/img/ico06.png"/>
+                                <div>
+                                    <p><span>9788</span>人</p>
+                                    在线用户数
+                                </div>
+                            </div>
+                            <div class="flex align-center">
+                                <img src="../static/img/ico07.png"/>
+                                <div>
+                                    <p><span>19006</span>人</p>
+                                    开通人数
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lineEchart" id="echart_2_4" style="width: 100%; height: 160px;"></div>
+                    </div>
+                </div>
+                <div class="networkHealth_l_middle gyBg mt15" style="height: 240px;">
+                    <div class="title">在线人数TOP5<i>Computer room</i><span></span></div>
+                    <div class="con top05">
+                        <div class="titleD flex">
+                            <div class="one">排名</div>
+                            <div class="two">楼宇名称</div>
+                            <div class="three">在线人数</div>
+                        </div>
+                        <div id="onlineTop5">
+                            <div class="one"></div>
+                            <div class="two"></div>
+                            <div class="three"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="networkHealth_l_bot gyBg mt15" style="height: 300px;">
+                    <div class="title">认证失败原因<i>Computer room</i><span></span></div>
+                    <div class="con"></div>
+                </div>
+            </div>
+            <div class="networkHealth_r">
+                <div class="networkHealth_l_top gyBg" style="height: 380px;">
+                    <div class="title">上网流量趋势<i>Computer room</i><span></span></div>
+                    <div class="con"></div>
+                </div>
+                <div class="networkHealth_l_middle gyBg mt15" style="height: 240px;">
+                    <div class="title">上网流量TOP5<i>Computer room</i><span></span></div>
+                    <div class="con"></div>
+                </div>
+                <div class="networkHealth_l_bot gyBg mt15" style="height: 300px;">
+                    <div class="title">认证失败趋势<i>Computer room</i><span></span></div>
+                    <div class="con"></div>
+                </div>
+            </div>
+        </div> -->
+        <div class="tab">
+            <ul class="flex justify-center">
+                <li v-for="(item,index) in tabList" :key="index" @click="tabClick(item)">{{ item }}</li>
+            </ul>
+        </div>
+        <!-- 网络健康-楼宇异常面板 -->
+        <!-- <div id="network_detail_panel" class="network_detail_panel">
+            <div class="network_detail_panel_bg">
+                <span class="close">x</span>
+                <div class="network_detail_panel_top">
+                    <div class="flex align-center">
+                        <img src="../static/img/02.fw.png"/>
+                        <div class="network_detail_panel_top_right">
+                            <h1>西寓9号楼</h1>
+                            <div class="flex">
+                                <p>设备数量：<span class="green">962</span></p>
+                                <p class="abnormal" style="cursor: pointer;">异常：<span class="orange">7<i></i></span>></p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="network_detail_panel_bot">
+                    <div class="flex justify-between">
+                        <p>接入交换机：2台</p>
+                        <p>AP数量：960个</p>
+                    </div>
+                    <div class="btn">进入楼层巡检</div>
+                </div>
+            </div>
+            <div class="jT">
+                <img src="../static/img/jT.png"/>
+            </div>
+        </div> -->
+        <!-- 网络健康-楼宇异常详情面板 -->
+        <!-- <div id="network_detail_panel_detail" class="network_detail_panel network_detail_panel_detail" style="display: block;">
+            <div class="network_detail_panel_bg">
+                <span class="close">x</span>
+                <div class="network_detail_panel_top">
+                    <div class="flex align-center">
+                        <img src="../static/img/096.fw.png"/>
+                        <div class="network_detail_panel_top_right">
+                            <h1>xiyuroom-AP</h1>
+                            <div class="flex">
+                                <p>异常原因：<span class="orange fs14">设备离线</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="network_detail_panel_bot">
+                    <p>开始时间：2023-12-04 10:4</p>
+                    <p>告警时长：0天0小时10分钟</p>
+                    <div class="flex">
+                        <div class="btn">关联工单</div>
+                        <div class="btn next">下一个</div>
+                    </div>
+                </div>
+            </div>
+            <div class="jT">
+                <img src="../static/img/jT.png"/>
+            </div>
+        </div> -->
+         <!-- 用户用网-异常面板 -->
+         <!-- <div id="userNework_detail_panel" class="network_detail_panel network_detail_panel_detail" style="display: block;">
+            <div class="network_detail_panel_bg">
+                <span class="close">x</span>
+                <div class="network_detail_panel_top">
+                    <div class="flex align-center">
+                        <img src="../static/img/096.fw.png"/>
+                        <div class="network_detail_panel_top_right">
+                            <h1>xiyuroom-AP</h1>
+                            <div class="flex">
+                                <p>终端数量：<span class="green fs14">5</span>台</p>
+                                <p class="abnormal" style="cursor: pointer;">AP状态：<span class="orange fs14">离线</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="jT">
+                <img src="../static/img/jT.png"/>
+            </div>
+        </div> -->
+        <!-- 用户用网-正常面板 -->
+        <!-- <div id="userNework_detail_panel_normal" class="network_detail_panel network_detail_panel_detail" style="display: block;">
+            <div class="network_detail_panel_bg">
+                <span class="close">x</span>
+                <div class="network_detail_panel_top">
+                    <div class="flex align-center">
+                        <img src="../static/img/02.fw.png"/>
+                        <div class="network_detail_panel_top_right">
+                            <h1>xiyuroom-AP</h1>
+                            <div class="flex">
+                                <p>终端数量：<span class="green fs14">5</span>台</p>
+                                <p class="abnormal" style="cursor: pointer;">AP状态：<span class="green fs14">正常</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="network_detail_panel_bot">
+                    <div class="terminalList_top flex">
+                        <div class="one overflowEllipsis1">终端列表</div>
+                        <div class="two overflowEllipsis1">下行速率</div>
+                    </div>
+                    <div id="terminalList_bot" class="terminalList_top"></div>
+                </div>
+            </div>
+            <div class="jT">
+                <img src="../static/img/jT.png"/>
+            </div>
+        </div> -->
+        <!-- 运维工单-工单异常面板 -->
+        <div id="order_detail_panel" class="network_detail_panel network_detail_panel_detail" style="display: block;">
+            <div class="network_detail_panel_bg">
+                <span class="close">x</span>
+                <div class="network_detail_panel_top">
+                    <div class="flex align-center">
+                        <img src="../static/img/02.fw.png"/>
+                        <div class="network_detail_panel_top_right">
+                            <h1>新的工单</h1>
+                            <div class="flex">
+                                <p>上报时间：<span class="orange fs14">12-25 14：35：45</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="orderDetailPanl fs14">
+                    西寓9号楼，网速卡顿，请尽快安排网络工程师去现场处理
+                </div>
+                <div class="network_detail_panel_bot" style="border-top: 0;">
+                    <div class="flex justify-between">
+                        <p>填报人：梁文乐</p>
+                        <p>电话：15837815245</p>
+                    </div>
+                    <div class="flex">
+                        <div class="btn">上一个</div>
+                        <div class="btn next">下一个</div>
+                    </div>
+                </div>
+            </div>
+            <div class="jT">
+                <img src="../static/img/jT.png"/>
+            </div>
+        </div>
+    </div>
+    <script>
+        new Vue({
+            el: '#app',
+            components: {
+                // 'my-component': httpVueLoader('components/body-see.vue'),
+            },
+            data() {
+                return {
+                    text: '1122',
+                    tabList: ['网络健康', '用户用网', '运维工单']
+                }
+            },
+            created() {
+                this.getData()
+            },
+            methods: {
+                getData(){
+                  axios.get(`http://117.159.39.3:8002/api/admin/tenant/list`)
+                    .then(res => {
+                        console.log('dd', res)
+                    })
+                },
+                tabClick(item){
+                    console.log('tet',item)
+                }
+            }
+        });
+    </script>
+</body>
+</html>

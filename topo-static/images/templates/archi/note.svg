@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="9px" viewBox="0 0 12 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>note</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="49.3333333%" x2="100%" y2="49.3333333%" id="linearGradient-1">
+            <stop stop-color="#C1D0E9" offset="0%"></stop>
+            <stop stop-color="#8396B9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="49.3333333%" x2="100%" y2="49.3333333%" id="linearGradient-2">
+            <stop stop-color="#C1D0E9" offset="0%"></stop>
+            <stop stop-color="#8396B9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50.6666667%" x2="100%" y2="50.6666667%" id="linearGradient-3">
+            <stop stop-color="#C1D0E9" offset="0%"></stop>
+            <stop stop-color="#8396B9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-216.000000, -103.000000)" fill-rule="nonzero">
+            <g id="note" transform="translate(216.000000, 103.000000)">
+                <path d="M8.77,8.73 L0.69,8.73 L0.69,0.24 L11.44,0.24 L11.44,6.24 L8.77,8.73 Z M1.44,8 L8.44,8 L10.66,5.93 L10.66,1 L1.44,1 L1.44,8 Z" id="形状" fill="#040000"></path>
+                <rect id="矩形" fill="url(#linearGradient-1)" x="2.24" y="1.73" width="3.06" height="1"></rect>
+                <rect id="矩形" fill="url(#linearGradient-2)" x="2.24" y="3.33" width="5.33" height="1"></rect>
+                <rect id="矩形" fill="url(#linearGradient-3)" x="2.24" y="4.93" width="5.33" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

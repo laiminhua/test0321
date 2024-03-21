@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>透明</title>
+    <desc>Created with Sketch.</desc>
+    <g id="透明" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <path d="M21.5498413,16.6175068 L12.9185068,1.39573019 C11.86289,-0.465243397 10.1376055,-0.465243397 9.08183857,1.39573019 L0.450525507,16.6175068 C-0.604962589,18.4803882 0.258569831,20 2.36789438,20 L19.6324724,20 C21.741797,20 22.6044929,18.4803882 21.5498413,16.6175068 Z" id="路径"></path>
+            <g id="警告备份" transform="translate(10.000000, 6.000000)" fill="#FFFFFF">
+                <g id="警告">
+                    <path d="M1,11 C0.44771525,11 6.76353751e-17,10.5522847 0,10 C-6.76353751e-17,9.44771525 0.44771525,9 1,9 C1.55228475,9 2,9.44771525 2,10 C2,10.5522847 1.55228475,11 1,11 Z" id="路径"></path>
+                    <polygon id="路径" points="2 8 0 8 0 0 2 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

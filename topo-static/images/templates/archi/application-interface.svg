@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>technology-interface</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-108.000000, -48.000000)">
+            <g id="technology-interface" transform="translate(108.000000, 48.000000)">
+                <path d="M8.66,1.64 C10.4825397,1.64 11.96,3.11746033 11.96,4.94 C11.96,6.76253967 10.4825397,8.24 8.66,8.24 C6.83746033,8.24 5.36,6.76253967 5.36,4.94 C5.36,3.11746033 6.83746033,1.64 8.66,1.64 M8.66,0.89 C6.46412362,0.917624379 4.7011433,2.71042525 4.71031574,4.90645607 C4.71955999,7.1024869 6.4975131,8.88044001 8.69354393,8.88968426 C10.8895748,8.8988567 12.6823756,7.13587638 12.71,4.94 C12.71,3.86587322 12.2833048,2.83573987 11.5237825,2.07621754 C10.7642601,1.3166952 9.73412678,0.89 8.66,0.89 Z" id="形状" fill="#030000" fill-rule="nonzero"></path>
+                <line x1="0.33" y1="4.94" x2="5.08" y2="4.94" id="路径" stroke="#030000" stroke-width="0.75"></line>
+            </g>
+        </g>
+    </g>
+</svg>

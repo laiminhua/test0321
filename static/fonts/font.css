@@ -1,0 +1,11 @@
+/*// 车牌字体*/
+@font-face{
+    font-family: 'chepaiziti';
+    src: url('DIN1451.ttf') format('truetype');
+    /*src: url('../fonts/DIN1451.ttf') format('truetype');*/
+}
+@font-face{
+    font-family: 'shishang';
+    src: url('shishangzhonghei.ttf') format('truetype');
+    /*src: url('../fonts/DIN1451.ttf') format('truetype');*/
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="10px" viewBox="0 0 8 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>artifact</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-147.000000, -257.000000)" fill="#030000" fill-rule="nonzero">
+            <g id="artifact" transform="translate(147.000000, 257.000000)">
+                <path d="M7.85,9.62 L0.16,9.62 L0.16,0.38 L5,0.38 L7.9,3.89 L7.85,9.62 Z M0.91,8.87 L7.1,8.87 L7.1,4.16 L4.59,1.16 L0.91,1.16 L0.91,8.87 Z" id="形状"></path>
+                <polygon id="路径" points="7.23 4.1 4 4.1 4 0.75 4.75 0.75 4.75 3.35 7.23 3.35"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

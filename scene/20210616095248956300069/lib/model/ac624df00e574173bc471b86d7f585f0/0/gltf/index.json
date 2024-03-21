@@ -1,0 +1,23 @@
+{
+  "sourceFile": "D:\\work\\ac624df00e574173bc471b86d7f585f0_999_转换中\\MAX\\18000空窗户.maxbk0.max",
+  "gltfFiles": [
+    "65J08R177QXONUQH2KXWWNDW0OTTJUC38.gltf"
+  ],
+  "texFiles": {
+    "KO9POYE6IY8DWM1U8RQ72KMODUOF1IX8N": ".bin"
+  },
+  "size": [
+    2.0,
+    0.1,
+    1.0
+  ],
+  "faces": 8,
+  "verts": 0,
+  "nodes": 1,
+  "createTime": "2020-08-21 9:44:43",
+  "author": "1854",
+  "computer": "DHJP-20160806JM",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.json"
+}

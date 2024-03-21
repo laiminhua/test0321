@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-155.000000, -103.000000)" fill="#030000" fill-rule="nonzero">
+            <g id="path" transform="translate(155.000000, 103.000000)">
+                <path d="M4.32,1.46 L4.32,1.92 L2.08,3.85 L1.82,4.07 L1.82,5.42 L2.02,5.64 L4.29,8.07 L4.29,8.54 L3.41,8.54 L0.81,5.76 L0.81,3.89 L3.38,1.46 L4.32,1.46 M5.06,0.71 L3.06,0.71 L0.06,3.57 L0.06,6.06 L3.06,9.29 L5,9.29 L5,7.78 L2.57,5.13 L2.57,4.42 L5.09,2.26 L5.09,0.71 L5.06,0.71 Z" id="形状"></path>
+                <path d="M8.62,1.46 L11.19,3.89 L11.19,5.76 L8.59,8.54 L7.71,8.54 L7.71,8.07 L10,5.64 L10.2,5.42 L10.2,4.07 L9.94,3.85 L7.67,1.92 L7.67,1.46 L8.61,1.46 M8.91,0.71 L6.91,0.71 L6.91,2.26 L9.43,4.42 L9.43,5.13 L7,7.78 L7,9.29 L8.95,9.29 L11.95,6.06 L11.95,3.57 L8.95,0.71 L8.91,0.71 Z" id="形状"></path>
+                <rect id="矩形" x="2.2" y="4.33" width="2" height="1"></rect>
+                <rect id="矩形" x="4.74" y="4.33" width="2.15" height="1"></rect>
+                <rect id="矩形" x="7.43" y="4.33" width="2" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

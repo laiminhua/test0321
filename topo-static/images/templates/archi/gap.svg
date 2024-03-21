@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="12px" viewBox="0 0 14 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>gap</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-73.000000, -161.000000)">
+            <g id="gap" transform="translate(73.000000, 162.000000)">
+                <path d="M7.06,-0.265 C4.08042377,-0.265 1.665,2.15042377 1.665,5.13 C1.665,8.10957623 4.08042377,10.525 7.06,10.525 C10.0395762,10.525 12.455,8.10957623 12.455,5.13 C12.455,2.15042377 10.0395762,-0.265 7.06,-0.265 Z M7.06,0.485 C9.62536266,0.485 11.705,2.56463734 11.705,5.13 C11.705,7.69536266 9.62536266,9.775 7.06,9.775 C4.49463734,9.775 2.415,7.69536266 2.415,5.13 C2.415,2.56463734 4.49463734,0.485 7.06,0.485 Z" id="椭圆形" fill="#030000" fill-rule="nonzero"></path>
+                <line x1="0.88" y1="4.03" x2="13.12" y2="4.03" id="路径" stroke="#030000" stroke-width="0.75"></line>
+                <line x1="0.88" y1="6.36" x2="13.12" y2="6.36" id="路径" stroke="#030000" stroke-width="0.75"></line>
+            </g>
+        </g>
+    </g>
+</svg>

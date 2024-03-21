@@ -1,0 +1,36 @@
+{
+  "sourceFile": "D:\\convertModels\\work\\7bfb3321557a40fead822d7285ac5324_999_转换中\\MAX\\Spacemanani.maxbk0.max",
+  "gltfFiles": [
+    "J2Y1TEZNOTPOM71WXZY8DT06T9PNIWT0X.gltf"
+  ],
+  "texFiles": {
+    "701TE6N4AYY7EUDNG3664HJWQZ82RH7SI": ".bin",
+    "W87Y9U2MT88T94QX3Y02IFNSXWDWETTQ2": "smd_1.jpg",
+    "HZID8JVGH7KPY8ZOGH08POW8IE2O2HTSQ": "Cloth_Normal.jpg",
+    "AYZUOENC58N6OFNQ2QUI4T1V5UZKQ10OT": "smd_2.png",
+    "1P6D7WNYGAZ0RQD1PZUSD3U0M70CQ38CC": "Body_Normal.jpg",
+    "H7NEU68XZY8IYJ1CITTI584KG98OO70VP": "smd_3.jpg",
+    "EYU4HZKOOZWXODIIYE41P742C7Y8YU8ID": "Dec_01_Normal.jpg",
+    "J7YCQ8U14T61G31KX847D3ZSC120RW02E": "smd_4.jpg",
+    "JTYQPUYOQHP7QQZ1XFJ8EWZS2QUKR97IE": "Dec_02_Normal.jpg",
+    "ZT1IU68XEPNE9Z8CY37UQ9N7OUNUMA012": "smd_5.jpg",
+    "UYNXW42QFYWOCQDVX8Y8DHNOIA12T7UQ4": "Dec_03_Normal.jpg"
+  },
+  "size": [
+    0.580103,
+    0.506173,
+    1.26653
+  ],
+  "faces": 35220,
+  "verts": 18460,
+  "nodes": 194,
+  "createTime": "2021-07-23 20:21:47",
+  "author": "1854",
+  "computer": "CHR-221",
+  "max": "#(22000, 55, 0, 22, 0, 0, 757, 2020, \"\")",
+  "version": "2.1",
+  "extensionsFile": "extensions.ext",
+  "anim": [
+    "_defaultAnim_"
+  ]
+}

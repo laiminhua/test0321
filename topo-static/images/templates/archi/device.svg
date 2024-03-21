@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>device</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-231.000000, -165.000000)" fill="#030000" fill-rule="nonzero">
+            <g id="device" transform="translate(231.000000, 165.000000)">
+                <path d="M10.45,0.93 L10.45,6.36 L1.64,6.36 L1.64,0.93 L10.45,0.93 M11.2,0.18 L0.89,0.18 L0.89,7.11 L11.2,7.11 L11.2,0.18 L11.2,0.18 Z" id="形状"></path>
+                <path d="M8.94,7.1 L10.3,9.1 L1.89,9.1 L3.36,7.1 L8.94,7.1 M9.07,6.35 L3.24,6.35 C3.08042624,6.35069125 2.93118437,6.42904323 2.84,6.56 L1,9 C0.886368382,9.15150882 0.868090397,9.35421478 0.952786405,9.5236068 C1.03748241,9.69299881 1.21061397,9.8 1.39999712,9.8 L10.78,9.8 C10.9642079,9.79844 11.1326369,9.69571735 11.2183479,9.53265725 C11.304059,9.36959716 11.2931667,9.17261589 11.19,9.02 L9.49,6.55 C9.39785953,6.41366981 9.24454125,6.33140147 9.08,6.33 L9.07,6.35 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

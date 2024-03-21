@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>application-component2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-177.000000, -257.000000)" fill="#030000" fill-rule="nonzero">
+            <g id="application-component2" transform="translate(177.000000, 257.000000)">
+                <path d="M10,0.4 L10,9.6 L3,9.6 L3,6.77 L3.73,6.77 L3.73,8.91 L9.39,8.91 L9.39,1.09 L3.73,1.09 L3.73,1.869 L3,1.869 L3,0.4 L10,0.4 Z M3.73,3.939 L3.73,4.69 L3,4.69 L3,3.939 L3.73,3.939 Z" id="形状"></path>
+                <path d="M5.13,2.56 L5.13,3.25 L1.59,3.25 L1.59,2.56 L5.13,2.56 M5.83,1.87 L0.89,1.87 L0.89,3.94 L5.83,3.94 L5.83,1.87 L5.83,1.87 Z" id="形状"></path>
+                <path d="M5.13,5.38 L5.13,6.08 L1.59,6.08 L1.59,5.38 L5.13,5.38 M5.83,4.69 L0.89,4.69 L0.89,6.77 L5.83,6.77 L5.83,4.69 L5.83,4.69 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

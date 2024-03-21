@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>parallel event based-2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="parallel-event-based-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="parallel-event-based">
+            <g>
+                <rect id="矩形备份-19" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <polygon id="路径备份" fill="#FFFFFF" points="12 7 12 9 8.99984899 9.00035713 9 12 7 12 7.00015101 9.00035713 4 9 4 7 7.00015101 7.00065916 7 4 9 4 8.99984899 7.00065916"></polygon>
+                <path d="M9.50002516,3.5 L6.49997484,3.5 L6.5,6.5 L3.5,6.49989013 L3.5,9.49994048 L6.5,9.5 L6.49997483,12.5 L9.50002517,12.5 L9.499,9.5 L12.5,9.49994048 L12.5,6.49989013 L9.499,6.5 L9.50002516,3.5 Z M7.499,4.5 L8.5,4.5 L8.49982382,7.50076903 L11.5,7.499 L11.5,8.5 L8.49982382,8.50041665 L8.5,11.5 L7.499,11.5 L7.50017618,8.50041665 L4.5,8.5 L4.5,7.499 L7.50017618,7.50076903 L7.499,4.5 Z" id="路径备份" fill="#333333" fill-rule="nonzero"></path>
+                <path d="M8,1 C4.13400675,1 1,4.13400675 1,8 C1,11.8659932 4.13400675,15 8,15 C11.8659932,15 15,11.8659932 15,8 C15,4.13400675 11.8659932,1 8,1 Z M8,2 C11.3137085,2 14,4.6862915 14,8 C14,11.3137085 11.3137085,14 8,14 C4.6862915,14 2,11.3137085 2,8 C2,4.6862915 4.6862915,2 8,2 Z" id="椭圆形" fill="#333333" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

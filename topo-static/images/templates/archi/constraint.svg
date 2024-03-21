@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="8px" viewBox="0 0 14 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>constraint</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-170.000000, -201.000000)" fill="#030000" fill-rule="nonzero">
+            <g id="constraint" transform="translate(170.000000, 201.000000)">
+                <path d="M10.19,7.41 L0.44,7.41 L4,0.43 L13.75,0.43 L10.19,7.41 Z M1.66,6.66 L9.73,6.66 L12.5,1.18 L4.43,1.18 L1.66,6.66 Z" id="形状"></path>
+                <rect id="矩形" transform="translate(5.831914, 3.921527) rotate(-63.230000) translate(-5.831914, -3.921527) " x="2.3419137" y="3.54652749" width="6.98" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

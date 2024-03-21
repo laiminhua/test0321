@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>value-stream2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-96.000000, -280.000000)" fill="#030000" fill-rule="nonzero">
+            <g id="value-stream2" transform="translate(96.000000, 280.000000)">
+                <path d="M6.7,9.33 L0.7,9.33 L4,5.12 L0.75,0.72 L6.7,0.72 L10,5.13 L6.7,9.33 Z M2.25,8.58 L6.33,8.58 L9,5.12 L6.32,1.47 L2.23,1.47 L4.92,5.13 L2.25,8.58 Z" id="形状"></path>
+                <path d="M10.41,7.19 C9.79696393,7.19 9.3,7.68696393 9.3,8.3 C9.3,8.91303607 9.79696393,9.41 10.41,9.41 C11.0230361,9.41 11.52,8.91303607 11.52,8.3 C11.52,7.68696393 11.0230361,7.19 10.41,7.19 Z M10.41,7.69 C10.7468937,7.69 11.02,7.9631063 11.02,8.3 C11.02,8.6368937 10.7468937,8.91 10.41,8.91 C10.0731063,8.91 9.8,8.6368937 9.8,8.3 C9.8,7.9631063 10.0731063,7.69 10.41,7.69 Z" id="椭圆形"></path>
+            </g>
+        </g>
+    </g>
+</svg>

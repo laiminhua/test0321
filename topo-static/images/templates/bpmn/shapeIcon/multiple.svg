@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="12px" viewBox="0 0 13 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>multiple</title>
+    <desc>Created with Sketch.</desc>
+    <g id="multiple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero" id="multiple-2">
+            <g>
+                <g id="multiple">
+                    <polygon id="多边形" fill="#FFFFFF" points="12.5882487 4.57294902 6.29412435 0 0 4.57294902 2.40414157 11.972136 10.1841071 11.972136"></polygon>
+                    <path d="M12.5882487,4.57294902 L6.29412435,0 L0,4.57294902 L2.40414157,11.972136 L10.1841071,11.972136 L12.5882487,4.57294902 Z M6.29412435,1.23503399 L11.4121244,4.95403399 L9.45712435,10.972034 L3.13012435,10.972034 L1.17512435,4.95403399 L6.29412435,1.23503399 Z" id="多边形" fill="#333333"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>and-junction</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-37.000000, -258.000000)" fill="#040000" fill-rule="nonzero">
+            <g id="and-junction" transform="translate(37.000000, 258.000000)">
+                <path d="M1.61,0.8 L1.61,1.6 L0.81,1.6 L0.81,0.8 L1.61,0.8 M2.36,0.05 L0.06,0.05 L0.06,2.35 L2.36,2.35 L2.36,0.05 Z" id="形状"></path>
+                <path d="M10.78,4.6 L10.78,5.4 L10,5.4 L10,4.6 L10.79,4.6 M11.54,3.85 L9.24,3.85 L9.24,6.15 L11.53,6.15 L11.53,3.85 L11.54,3.85 Z" id="形状"></path>
+                <path d="M1.61,8.4 L1.61,9.2 L0.81,9.2 L0.81,8.4 L1.61,8.4 M2.36,7.65 L0.06,7.65 L0.06,10 L2.36,10 L2.36,7.7 L2.36,7.65 Z" id="形状"></path>
+                <circle id="椭圆形" cx="4.93" cy="5.02" r="2.15"></circle>
+                <rect id="矩形" transform="translate(2.752872, 2.869735) rotate(-44.990000) translate(-2.752872, -2.869735) " x="2.37787183" y="1.78973532" width="1" height="2.16"></rect>
+                <rect id="矩形" x="6.79" y="4.61" width="2.8" height="1"></rect>
+                <rect id="矩形" transform="translate(3.075202, 6.867289) rotate(-47.370000) translate(-3.075202, -6.867289) " x="1.59020158" y="6.49228912" width="2.97" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

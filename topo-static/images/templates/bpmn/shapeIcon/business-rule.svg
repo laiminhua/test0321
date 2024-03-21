@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>business rule</title>
+    <desc>Created with Sketch.</desc>
+    <g id="business-rule" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="business-rule-2">
+            <g>
+                <g id="business-rule">
+                    <rect id="矩形" fill="#FFFFFF" x="1" y="1" width="14" height="14"></rect>
+                    <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                    <path d="M1,1 L14.9624658,1 L14.962,3.999 L14.9679776,4 L14.9679776,15 L1,15 L1,1 Z M5,10 L2,10 L2,13.999 L5,13.999 L5,10 Z M13.967,10 L6,10 L6,13.999 L13.967,13.999 L13.967,10 Z M5,5 L2,5 L2,9 L5,9 L5,5 Z M13.967,5 L6,5 L6,9 L13.967,9 L13.967,5 Z" id="形状结合" fill="#333333"></path>
+                    <rect id="矩形" fill="#B3B1B3" x="2" y="2" width="12" height="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,212 @@
+html,body{height: 100%;}
+*{box-sizing: border-box; font-family: 'shishang';}
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form,input{margin:0; font-size: 14px;}
+ol,li,ul{margin:0; padding:0;}
+body, button, input, select, textarea {font: 12px/1.5 "puhuiti",\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", STHeiti, MingLiu,"Arial","sans-serif";}
+h1, h2, h3, h4, h5, h6 {font-size: 100%;}
+li{list-style:none;}
+address, cite, dfn, em, var {font-style: normal;}
+a {text-decoration: none !important; outline: none ;font-family:"puhuiti",\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", STHeiti, MingLiu,"Arial","sans-serif";cursor:pointer;}
+img {border: 0;}
+button, input, select, textarea {font-size: 100% ;font-family:"puhuiti", \9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", STHeiti, MingLiu,"Arial","sans-serif";outline:none;}
+table {border-collapse: collapse; border-spacing: 0;}
+s{text-decoration: none;}
+.clear:after{display:block; content:''; clear:both; visibility:hidden; height:0;}
+.clear{zoom:1;}
+/*弹性布局*/
+/* .flex{display: -webkit-flex; display: flex;width: 100%;} */
+.flex{display: -webkit-flex; display: flex;}
+.justify-between{ -webkit-justify-content: space-between; }
+.justify-end{-webkit-justify-content: flex-end;justify-content: flex-end;}
+.justify-center{-webkit-justify-content: center; justify-content: center;}
+.justify-around{-webkit-justify-content: space-around;justify-content: space-around;}
+.align-center{-webkit-align-items: center;align-items: center;}
+.align-end{-webkit-align-items: flex-end;align-items: flex-end}
+.wrap{ -webkit-flex-wrap: wrap;flex-wrap: wrap;}
+.green{ color: #37ce74}
+.darkBlue{ color: #2d8eff}
+.lightBlue{ color: #bdebf7}
+.blue{ color: #4cffff;}
+.orange{ color: #ffa64d;}
+.overflowEllipsis2{overflow : hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+.overflowEllipsis1{overflow: hidden;text-overflow: ellipsis;-o-text-overflow: ellipsis;white-space:nowrap;display:block;}
+.green{ color:#4cffa5 !important;}
+.orange{ color:#f38d5f !important;}
+.blue{ color:#99e5ff !important;}
+.fs14{ font-size: 14px !important;}
+.fs16{ font-size: 16px !important;}
+
+/* #div2d{width: 1920px; height: 1080px; position: absolute; z-index: 99;} */
+
+#app{ color: #fff;}
+/* .order{position: absolute; display: none; width: 100%;} */
+/* .order1{ position: absolute; width: 100%; height: 100%; background: url(../img/line.png) no-repeat; background-size: 100% 100%;} */
+.header{ position: absolute; top: 0; width: 100%; text-align: center; font-size: 28px; line-height: 70px; background: url(../img/header.png) no-repeat; background-size: 100% 100%;}
+.time{position: absolute; top: 45px;left: 50px;}
+.school{position: absolute; top: 38px;right:50px;}
+.school .textbox{ background: url(../img/position.png) no-repeat 15px center #0b152f !important; padding-left: 30px; border: 1px #0e284b solid; width: 190px !important;}
+.school .textbox #_easyui_textbox_input1{ background: none !important; color: #fff;}
+/* .school .textbox .combo-arrow{ background: none !important;} */
+/* .left{ position: absolute; top: 90px; left: 55px;}
+.right{ position: absolute; top: 90px; right: 55px;} */
+.tab{ position: absolute; bottom: 84px; width: 100%;}
+.tab ul{ text-align: center;}
+.tab ul li{ text-align: center; margin: 0 23px; width: 149px; height: 44px; line-height: 44px; text-align: center; cursor: pointer; font-size: 16px; background: url(../img/li.png) no-repeat; background-size: 100% 100%;}
+.tab ul li.current, .tab ul li:hover{background: url(../img/liHover.png) no-repeat; background-size: 100% 100%;}
+
+/* 网络健康 */
+.gyBg{width: 358px; background: url(../img/conBg.png) no-repeat; background-size: 100%; border-bottom: 1px #0c1d3d solid;}
+.mt15{ margin-top: 15px;}
+.networkHealth{ display: none; position: absolute; width: 100%;}
+.networkHealth_l{ position: absolute; top: 90px; left: 55px;}
+
+
+/* .networkHealth_l_top{} */
+.networkHealth_l_middle .con{ padding: 10px;}
+.networkHealth_l_top_bot{ padding: 16px 20px; overflow: hidden;}
+.networkHealth_l_top_bot .action img{ margin-left: 10px;}
+.networkHealth_l_top_bot ul li{ width: 150px; height: 78px; float: left; margin-top: 10px; margin-right: 16px; padding: 9px 15px; background: url(../img/libg.png) no-repeat; background-size: 100% 100%;}
+.networkHealth_l_top_bot ul li:nth-child(even){ margin-right: 0;}
+.networkHealth_l_top_bot ul li .name{ margin-left: 10px;}
+.networkHealth_l_top_bot ul li .des{ margin-top: 5px;}
+.networkHealth_l_top_bot ul li .des p{ font-size: 12px;}
+.title{ font-size: 18px; line-height: 54px; padding: 0 25px; color: #ddf7ff;}
+.title i{font-size: 14px; font-style: normal; margin-left: 15px;}
+.pieEchart{ background: url(../img/pie.png) no-repeat 9px center; background-size: 45%; }
+.networkHealth_l_bot .con{ padding: 20px; color: #ddf7ff;}
+.networkHealth_l_bot .con .unit,.networkHealth_r .con .unit{ font-size: 10px; margin-left: 10px;}
+.networkHealth_r{ position: absolute; top: 90px; right: 55px;}
+.networkHealth_r .con{ padding: 20px; color: #ddf7ff;}
+.networkHealth_r .con .operatorList{ padding: 6px 0; background: linear-gradient(to right, rgba(25, 58, 122, 0), rgba(25, 58, 122, 0.5), rgba(25, 58, 122, 0));}
+.networkHealth_r .con .operatorList span{ width: 54px; height: 26px; text-align: center; line-height: 26px; background: url(../img/operatorLibg.png) no-repeat left top;background-size: 100%; cursor: pointer;}
+.networkHealth_r .con .operatorList span.current,.networkHealth_r .con .operatorList span:hover{ background: url(../img/operatorLibgAction.png) no-repeat left top; background-size: 100%;}
+.networkHealth_r .con .legend{position: absolute; left: 24px; top: 125px;}
+/* 用户用网 */
+.userNetwork{position: absolute; width: 100%; display: none;}
+.userNetwork .networkHealth_l_top .online{ padding: 20px 30px;}
+.userNetwork .networkHealth_l_top .online img{margin-right: 15px;}
+.userNetwork .networkHealth_l_top .online p span{font-size: 16px; color: #4cffff;}
+
+/*用户用网和运维工单公用排行样式*/
+.networkHealth_l_middle .con{ padding: 15px;}
+.networkHealth_l_middle .top05 .titleD{ line-height: 32px; background: linear-gradient(to right, rgba(25, 58, 122, 0), rgba(25, 58, 122, 0.5), rgba(25, 58, 122, 0));}
+.networkHealth_l_middle .one{ width: 48px;}
+.networkHealth_l_middle .two{ width: 194px;}
+.networkHealth_l_middle .three{ width: 83px; text-align: center;}
+.networkHealth_l_middle .top5{ margin-top: 8px;}
+.networkHealth_l_middle .top5 .flex{ line-height: 20px; padding: 8px 0;}
+.networkHealth_l_middle .top5 .flex:nth-child(1) .one{ background: url(../img/icon_top01.png) no-repeat left center;}
+.networkHealth_l_middle .top5 .flex:nth-child(2) .one{ background: url(../img/icon_top02.png) no-repeat left center;}
+.networkHealth_l_middle .top5 .flex:nth-child(3) .one{ background: url(../img/icon_top03.png) no-repeat left center;}
+.networkHealth_l_middle .top5 .flex:nth-child(4) .one{ background: url(../img/icon_top04.png) no-repeat left center;}
+.networkHealth_l_middle .top5 .flex:nth-child(5) .one{ background: url(../img/icon_top05.png) no-repeat left center;}
+.networkHealth_l_middle .top5 .flex:nth-child(6) .one{ background: url(../img/icon_top06.png) no-repeat left center;}
+.networkHealth_l_middle .top5 .flex:nth-child(7) .one{ background: url(../img/icon_top07.png) no-repeat left center;}
+.networkHealth_l_middle .top5 .flex:nth-child(8) .one{ background: url(../img/icon_top08.png) no-repeat left center;}
+.networkHealth_l_middle .top5 .flex:nth-child(9) .one{ background: url(../img/icon_top09.png) no-repeat left center;}
+.networkHealth_l_middle .top5 .flex:nth-child(10) .one{ background: url(../img/icon_top10.png) no-repeat left center;}
+.networkHealth_l_middle .top5 .flex:nth-child(1) .three{ color: #f38d5f;}
+.networkHealth_l_middle .top5 .flex:nth-child(2) .three{ color: #3cc088;}
+/* 运维工单 */
+.order{position: absolute; width: 100%;}
+.order .con{ padding-top: 28px;}
+.order .orderHandleL{ padding: 5px 25px 27px 25px;}
+.order .orderHandleL .left img{ margin-right: 15px;}
+.orderHandleL .left{ width: 50%;}
+.orderHandleL .center{ width: 30%;}
+.orderHandleL .right{ width: 20%;}
+.order .networkHealth_l_middle_order .one{ width: 170px; background: none !important;}
+.order .networkHealth_l_middle_order .two{ width: 63px;}
+.order .networkHealth_l_middle_order .three{ width: 83px; text-align: center;}
+#eventDevice, #dHandleEvent, #durationTop10{ height: 180px; overflow: hidden;}
+#dHandleEvent .flex{ line-height: 24px; padding: 6px 0;}
+#dHandleEvent .two{ width: 254px;}
+#dHandleEvent .three{color: #ddf7ff !important;}
+.order .networkHealth_l_bot .one{ width: 48px;}
+/*建筑物*/
+/* .builds{color: #fff;font-size: 12px;text-shadow: white  0px 2px, white  2px 0px, white  -2px 0px, white  0px -2px, white  -1.4px -1.4px, white  1.4px 1.4px, white  1.4px -1.4px, white  -1.4px 1.4px;margin-bottom: 5px;} */
+.builds{color: #fff;font-size: 12px;margin-bottom: 5px;}
+.buildName{background: url(../img/titleM.png) no-repeat left top;background-size: 100% 46px;padding: 18px 10px 0 10px;}
+.buildName .yuan{ width: 8px; height: 8px; border-radius: 8px; background: #4dffa6; margin: 5px 8px 0 0;}
+.buildName .num{ position: absolute; top: 0; right: -10px; background: #f27a40; padding: 2px 4px; min-width: 21px; font-size: 12px; text-align: center; border-radius: 10px;}
+/* .network_detail_panel{ position: absolute; left: 50%;} */
+.network_detail_panel{ display: none; position: absolute;}
+.network_detail_panel .jT{margin-top: 15px; text-align: center;}
+.network_detail_panel_bg{background: rgba(10,19,41,.85); border-radius: 10px; padding: 14px; overflow: hidden;}
+.network_detail_panel_bg .close{ position: absolute; top: 0; right: 10px; font-size: 14px; opacity: .5; cursor: pointer;}
+.network_detail_panel_top{ padding-bottom: 10px; }
+.network_detail_panel_top_right{ flex: 1; margin-left: 10px;}
+.network_detail_panel_top_right h1{ font-size: 18px; font-weight: normal;}
+.network_detail_panel_top_right p .green{ font-size: 18px;}
+.network_detail_panel_top_right p.abnormal{ margin-left: 10px;}
+.network_detail_panel_top_right p .orange{ font-size: 18px; }
+.network_detail_panel_top_right p .orange i{ width: 6px; height: 6px; border-radius: 6px; margin-right: 5px; display: inline-block; background: #e4733e;}
+.network_detail_panel_bot{ border-top: 1px #273a51 solid;padding-top: 10px;}
+.network_detail_panel_bot .btn{ cursor: pointer; width: 136px; height: 36px; line-height: 36px; border-radius: 36px; margin-top: 15px; text-align: center; background: #133168; color: #fff; font-size: 16px;}
+.network_detail_panel_bot .btn:hover{ background: #193972;}
+.network_detail_panel_detail .btn{width: 122px;}
+.network_detail_panel_detail .next{width: 122px; background: none; border: 1px #133168 solid; margin-left: 15px;}
+/*进入建筑物*/
+.buildFloorNum{ position: absolute; left: 442px; bottom: 80px;}
+.buildFloorNum ul li{ height: 24px; line-height: 24px; padding: 0 5px; border: 1px #1e5fb9 solid; background: #0a2657; text-align: center; margin-top: 6px; cursor: pointer;}
+.buildFloorNum ul li.current{ height: 24px; border: 1px #00e4f6 solid; background: #034f6c;}
+
+/*用户用网面板*/
+.terminalList_top{ line-height: 24px;}
+.terminalList_top .one{ width: 70%;}
+.terminalList_top .two{ width: 30%;}
+/*运维工单异常面板*/
+.orderDetailPanl{ background: rgba(10,21,45,0.8); border: 1px #0d314e solid; border-radius: 10px; padding: 10px; color: #73dcff; width: 286px;}
+/*文字滚动样式*/
+/*Plugin CSS*/
+.str_wrap {
+	overflow:hidden;
+	width:100%;
+	/* font-size:12px; */
+	/* line-height:16px; */
+	position:relative;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;  
+	/* background:#f6f6f6; */
+	white-space:nowrap;
+}
+
+.str_wrap.str_active {
+	/* background:#f1f1f1; */
+}
+.str_move { 
+	white-space:nowrap;
+	position:absolute; 
+	top:0; 
+	left:0;
+	cursor:move;
+}
+.str_move_clone {
+	display:inline-block;
+	vertical-align:top;
+	position:absolute; 
+	left:100%;
+	top:0;
+}
+.str_vertical .str_move_clone {
+	left:0;
+	top:100%;
+}
+.str_down .str_move_clone {
+	left:0;
+	bottom:100%;
+}
+.str_vertical .str_move,
+.str_down .str_move {
+	white-space:normal;
+	width:100%;
+}
+.str_static .str_move,
+.no_drag .str_move,
+.noStop .str_move{
+	cursor:inherit;
+}
+.str_wrap img {
+	max-width:none !important;	
+}

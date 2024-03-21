@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="8px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>workpackage</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-62.000000, -281.000000)" fill="#030000" fill-rule="nonzero">
+            <g id="workpackage" transform="translate(62.000000, 281.000000)">
+                <path d="M11,1 L11,7.23 L1,7.23 L1,1 L11,1 M11.25,0.25 L0.76,0.25 C0.478334778,0.25 0.24999999,0.478334778 0.24999999,0.76 L0.24999999,7.48 C0.24999999,7.61435918 0.304022041,7.74307541 0.399964285,7.83713643 C0.495906528,7.93119745 0.625667691,7.98268719 0.76,7.98 L11.21,7.98 C11.4861424,7.98 11.7101001,7.75614237 11.7101001,7.48 L11.7101001,0.77 C11.7126872,0.635667691 11.6611975,0.505906528 11.5671364,0.409964285 C11.4730754,0.314022041 11.3443592,0.259973125 11.21,0.26 L11.25,0.25 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

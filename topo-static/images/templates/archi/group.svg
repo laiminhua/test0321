@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="10px" viewBox="0 0 13 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-219.000000, -135.000000)" fill="#040000" fill-rule="nonzero">
+            <g id="group" transform="translate(219.000000, 135.000000)">
+                <path d="M12.58,9.46 L0.91,9.46 L0.91,3.21 L12.58,3.21 L12.58,9.46 Z M1.66,8.71 L11.83,8.71 L11.83,4 L1.66,4 L1.66,8.71 Z" id="形状"></path>
+                <path d="M8.78,4 L0.91,4 L0.91,0.54 L8.78,0.54 L8.78,4 Z M1.66,3.21 L8,3.21 L8,1.29 L1.66,1.29 L1.66,3.21 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

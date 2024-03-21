@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="10px" viewBox="0 0 14 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>resource</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-84.000000, -71.000000)" fill="#040000" fill-rule="nonzero">
+            <g id="resource" transform="translate(84.000000, 71.000000)">
+                <path d="M11.73,9.9 L0.54,9.9 L0.54,0.1 L11.73,0.1 L11.73,9.9 Z M1.29,9.15 L11,9.15 L11,0.85 L1.29,0.85 L1.29,9.15 Z" id="形状"></path>
+                <path d="M13.46,7.51 L11,7.51 L11,2.51 L13.48,2.51 L13.46,7.51 Z M11.73,6.76 L12.73,6.76 L12.73,3.24 L11.73,3.24 L11.73,6.76 Z" id="形状"></path>
+                <rect id="矩形" x="6.13" y="2.59" width="1" height="4.82"></rect>
+                <rect id="矩形" x="4.47" y="2.59" width="1" height="4.82"></rect>
+                <rect id="矩形" x="2.89" y="2.59" width="1" height="4.82"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

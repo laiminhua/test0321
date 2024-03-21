@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>对勾-透明</title>
+    <desc>Created with Sketch.</desc>
+    <g id="对勾-透明" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <circle id="椭圆形" fill="#D8D8D8" opacity="0" cx="10" cy="10" r="10"></circle>
+            <g id="对勾备份" transform="translate(4.000000, 6.000000)" fill="#FFFFFF">
+                <polygon id="路径" points="4.58578644 8.65685425 0.343145751 4.41421356 1.75735931 3 4.58578644 5.82842712 10.2426407 0.171572875 11.6568542 1.58578644"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

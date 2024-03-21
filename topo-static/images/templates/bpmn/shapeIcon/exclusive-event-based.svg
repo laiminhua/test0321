@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>exclusive event based-2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="exclusive-event-based-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="exclusive-event-based">
+            <g>
+                <rect id="矩形备份-17" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M8,1 C4.13400675,1 1,4.13400675 1,8 C1,11.8659932 4.13400675,15 8,15 C11.8659932,15 15,11.8659932 15,8 C15,4.13400675 11.8659932,1 8,1 Z M8,2 C11.3137085,2 14,4.6862915 14,8 C14,11.3137085 11.3137085,14 8,14 C4.6862915,14 2,11.3137085 2,8 C2,4.6862915 4.6862915,2 8,2 Z" id="椭圆形" fill="#333333" fill-rule="nonzero"></path>
+                <polygon id="多边形" fill="#FFFFFF" fill-rule="nonzero" points="12.3920113 6.57294902 8 3.38196601 3.60798868 6.57294902 5.28558773 11.736068 10.7144123 11.736068"></polygon>
+                <path d="M12.3920113,6.57294902 L8,3.38196601 L3.60798868,6.57294902 L5.28558773,11.736068 L10.7144123,11.736068 L12.3920113,6.57294902 Z M8,4.617 L11.216,6.954 L9.987,10.736 L6.012,10.736 L4.783,6.954 L8,4.617 Z" id="多边形" fill="#333333" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
