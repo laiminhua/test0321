@@ -7,13 +7,13 @@ var app = new THING.App({
   * 名称：发光效果模板
   * 说明：此效果模板适用于园区
   */
-
+ 
 // 设置app背景为黑色
 app.background = [0, 0, 0];
 // 引用效果模板组件脚本
 THING.Utils.dynamicLoad([
     '/static/plugins/thing.effect.min/1.5.2/EffectThemeControl.min.js',
-    '/Resources/EffectTemplate/admin/4fd7c9e216b1086414bd24c559d3eb01/frame.js',
+    '/Resources/EffectTemplate/admin/528ba6e45307fab6051120024d2a04d6/frame.js',
 ], function () {
     app.on('load', function (ev) {
         app.level.change(ev.campus);
@@ -25,7 +25,7 @@ THING.Utils.dynamicLoad([
         //获取模板控制器
         var ctrl = app.getControl('效果模板控制器');
         //注册模板,data是模板数据。如果是本地效果模板包，必须填第三个参数，该参数是模板包相对于该片代码的路径
-        ctrl.registerTheme('default_parkbusiness', data, '/Resources/EffectTemplate/admin/4fd7c9e216b1086414bd24c559d3eb01');
+        ctrl.registerTheme('default_parkbusiness', data, '/Resources/EffectTemplate/admin/528ba6e45307fab6051120024d2a04d6');
         //获取园区
         c = app.query('.Campus')[0];
         //应用效果模板
@@ -33,4 +33,4 @@ THING.Utils.dynamicLoad([
         ctrl.applyEffectTheme('default_parkbusiness', c);
         ctrl.applyThemeEnvironment('default_parkbusiness', c);
     })
-},true,true,true)
+})
