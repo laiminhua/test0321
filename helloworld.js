@@ -3,10 +3,6 @@ var app = new THING.App({
     url: '/api/scene/1870921611218105486'  // 场景地址
 });
 
-// 加载场景代码 
-var app = new THING.App({ 
-    url: 'https://www.thingjs.com/static/models/factory',  // 场景地址可换
-});
 /**
   * 名称：发光效果模板
   * 说明：此效果模板适用于园区
