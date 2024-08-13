@@ -32,4 +32,4 @@ THING.Utils.dynamicLoad([
         ctrl.applyEffectTheme('default_parkbusiness', c);
         ctrl.applyThemeEnvironment('default_parkbusiness', c);
     })
-}, true, true, true)
+})
