@@ -1,13 +1,12 @@
 // 离线开发引入园区场景
 var app = new THING.App({
-    url: '/api/scene/1870921611218105486'  // 场景地址
+    url: '/api/scene/production_211848'  // 场景地址
 });
-
 /**
   * 名称：发光效果模板
   * 说明：此效果模板适用于园区
   */
- 
+
 // 设置app背景为黑色
 app.background = [0, 0, 0];
 // 引用效果模板组件脚本
@@ -33,4 +32,4 @@ THING.Utils.dynamicLoad([
         ctrl.applyEffectTheme('default_parkbusiness', c);
         ctrl.applyThemeEnvironment('default_parkbusiness', c);
     })
-})
+}, true, true, true)
