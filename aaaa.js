@@ -28,6 +28,7 @@ THING.Utils.dynamicLoad([
     const instance = await scenebundle.waitForComplete() // 等待场景加载完成
     instance // ui场景实例
  })
+
 // 设置app背景为黑色
 // app.background = [0, 0, 0];
 // 引用效果模板组件脚本
