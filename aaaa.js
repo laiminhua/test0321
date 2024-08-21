@@ -3,33 +3,31 @@ var app = new THING.App({
     url: '/api/scene/production_211848'  // 场景地址
 });
 
-
 // 说明：在离线环境中使用森大屏，需使用以下脚本。
 // 离线开发引入森大屏图表脚本
 THING.Utils.dynamicLoad([
     '/static/release/thing.charts.min.js',
     '/static/plugins/vue.min.js'
-],
-    async function () {
-        const scenebundle = THING.CHARTS.Utils.loadBundle(
-            // '/Resources/BigScreen/admin/0349afcd5b2f4d45bfd886dd6a8673f3', // 前缀
-            './mock/大屏-离线部署打组失效-20240821113013634', // 前缀
-            {
-                container: document.getElementById('div2d') || '#div2d', // 挂载节点
-                // 可选参数
-                hide3D: true, // 隐藏场景内的3D
-                hideCanvasBackground: true, // 画布背景色是否设置为透明的，默认false
-                dataSource: {
-                    disable: true, // 是否禁用RestAPI数据，默认false
-                    http: {
-                        server: 'wss://charts.thingjs.com/spray/websocket', // 数据源配置
-                    }
+ ],
+ async function () {
+    const scenebundle = THING.CHARTS.Utils.loadBundle(
+        '/Resources/BigScreen/admin/0349afcd5b2f4d45bfd886dd6a8673f3', // 前缀
+        {
+            container: document.getElementById('div2d') || '#div2d', // 挂载节点
+            // 可选参数
+            hide3D: true, // 隐藏场景内的3D
+            hideCanvasBackground: true, // 画布背景色是否设置为透明的，默认false
+            dataSource: {
+                disable: true, // 是否禁用RestAPI数据，默认false
+                http: {
+                 server: 'wss://charts.thingjs.com/spray/websocket', // 数据源配置
                 }
             }
-        )
-        const instance = await scenebundle.waitForComplete() // 等待场景加载完成
-        instance // ui场景实例
-    })
+        }
+    )
+    const instance = await scenebundle.waitForComplete() // 等待场景加载完成
+    instance // ui场景实例
+ })
 // 设置app背景为黑色
 // app.background = [0, 0, 0];
 // 引用效果模板组件脚本
