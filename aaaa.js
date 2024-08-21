@@ -16,7 +16,8 @@ THING.Utils.dynamicLoad([
 ],
     async function () {
         const scenebundle = THING.CHARTS.Utils.loadBundle(
-            '/Resources/BigScreen/admin/0349afcd5b2f4d45bfd886dd6a8673f3', // 前缀
+            // '/Resources/BigScreen/admin/0349afcd5b2f4d45bfd886dd6a8673f3', // 前缀
+            './mock/大屏-jiechengtingcheV1-20240627155450985', // 前缀
             {
                 container: document.getElementById('div2d') || '#div2d', // 挂载节点
                 // 可选参数
