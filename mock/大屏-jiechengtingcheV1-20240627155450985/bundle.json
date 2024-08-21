@@ -1,0 +1,15 @@
+{
+  "name": "jiechengtingcheV1",
+  "main": "7487fe2b354b4e1cabe91fe7d9159559.json",
+  "type": "dashboard",
+  "id": "7487fe2b354b4e1cabe91fe7d9159559",
+  "version": "1.0.0",
+  "author": "qWiA6IITW8Cbg7civiEOkAtcHf0eJfHz",
+  "description": "The dashboard project",
+  "dependencies": {
+    "thing.charts.min.js": "1.0.0"
+  },
+  "external": {
+    "preview": "web/snapshot/7487fe2b354b4e1cabe91fe7d9159559.jpg"
+  }
+}
