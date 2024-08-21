@@ -7,7 +7,7 @@ var app = new THING.App({
 // 说明：在离线环境中使用森大屏，需使用以下脚本。
 // 离线开发引入森大屏图表脚本
 THING.Utils.dynamicLoad([
-    '/static/release/thing.charts.js',
+    '/static/release/thing.charts.min.js',
     '/static/plugins/vue.min.js'
 ],
     async function () {
