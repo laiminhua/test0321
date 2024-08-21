@@ -1,0 +1,15 @@
+{
+  "name": "离线部署打组失效",
+  "main": "0349afcd5b2f4d45bfd886dd6a8673f3.json",
+  "type": "dashboard",
+  "id": "0349afcd5b2f4d45bfd886dd6a8673f3",
+  "version": "1.0.0",
+  "author": "qWiA6IITW8Cbg7civiEOkAtcHf0eJfHz",
+  "description": "The dashboard project",
+  "dependencies": {
+    "thing.charts.min.js": "1.0.0"
+  },
+  "external": {
+    "preview": "web/snapshot/qWiA6IITW8Cbg7civiEOkAtcHf0eJfHzdtpe.png"
+  }
+}
